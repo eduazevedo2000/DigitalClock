@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #000000, #404040);
+  font-family: 'Oxanium', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+button {
+  font-family: inherit;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+  cursor: pointer;
+}
+
+#hours {
+  margin: 10%;
+  padding: 10px;
+  text-align: center;
+}
+
+#lisbon {
+  color: white;
+  display: block;
+}
+#newYork {
+  color: white;
+  display: none;
+}
+#sydney {
+  color: white;
+  display: none;
+}
+
+#buttons {
+  text-align: center;
+  margin: 5%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 8px;
+}
